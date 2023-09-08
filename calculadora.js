@@ -47,23 +47,7 @@ function calculadora() {
                     alert(`${num1} elevado a ${num2} é igual a ${resultado}`);
                     novaOperacao();
                }
-               /*
-                    if(operacao == 1){
-                         soma();
-                    }else if(operacao == 2){
-                         sub();
-                    }else if(operacao == 3){
-                         multi();
-                    }else if(operacao == 4){
-                         div();
-                    }else if(operacao == 5){
-                         resto();
-                    }else if(operacao == 6){
-                         pot();
-                    }else{
-                         alert('Operação inválida');
-                    } 
-               */
+
                switch (operacao) {
                     case 1:
                          soma();
@@ -82,9 +66,6 @@ function calculadora() {
                          break;
                     case 6:
                          pot();
-                         break;
-                    default:
-                         alert('Operação inválida');
                          break;
                }
 
